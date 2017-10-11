@@ -12,6 +12,7 @@
 		7FED88711F8E69560036B9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FED886F1F8E69560036B9EB /* Main.storyboard */; };
 		7FED88731F8E69560036B9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FED88721F8E69560036B9EB /* Assets.xcassets */; };
 		7FED88761F8E69560036B9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FED88741F8E69560036B9EB /* LaunchScreen.storyboard */; };
+		7FED887F1F8EADCA0036B9EB /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED887E1F8EADCA0036B9EB /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7FED88721F8E69560036B9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FED88751F8E69560036B9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FED88771F8E69560036B9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FED887E1F8EADCA0036B9EB /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7FED886A1F8E69560036B9EB /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				7FED887D1F8EADA80036B9EB /* CustomButton */,
 				7FED886B1F8E69560036B9EB /* AppDelegate.swift */,
 				7FED886D1F8E69560036B9EB /* ViewController.swift */,
 				7FED886F1F8E69560036B9EB /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				7FED88771F8E69560036B9EB /* Info.plist */,
 			);
 			path = Swoosh;
+			sourceTree = "<group>";
+		};
+		7FED887D1F8EADA80036B9EB /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				7FED887E1F8EADCA0036B9EB /* BorderButton.swift */,
+			);
+			path = CustomButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				7FED886E1F8E69560036B9EB /* ViewController.swift in Sources */,
 				7FED886C1F8E69560036B9EB /* AppDelegate.swift in Sources */,
+				7FED887F1F8EADCA0036B9EB /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
