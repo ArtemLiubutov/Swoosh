@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func toLeagueVCSegue(_ sender: Any) {
+        performSegue(withIdentifier: "toLeagueVCSegue", sender: self)
+    }
+    
 }
 
+//
