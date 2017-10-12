@@ -10,7 +10,7 @@ import Foundation
 
 struct Player {
     
-    let desiredLeague : String?
-    let playerLvl : String?
+    var desiredLeague : String?
+    var playerSkillLvl : String?
     
 }
